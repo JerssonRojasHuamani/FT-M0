@@ -1,0 +1,65 @@
+/* cuando vayas a usar un "class" se usa punto (.) */
+/* cuando vayas a usar un "id" se usa numeral (#) */
+.contenedor{
+    height: 100vh;
+    /* height:500px;  */
+    background-color: red;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; para escoger si el contenido sea vertical o horizontal o tambien reverso */
+    /* justify-content: center; izquierda a derecha */
+    /* align-items: center;  arriba a abajo */
+    /* justify-content: space-around; */
+}
+
+header{
+    background-color: yellow;
+}
+
+nav{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    text-align: center;
+    justify-self: flex-end;
+    background-color: lightgreen;
+}
+/* .box1, .box2, .box3{
+    width:100px;
+    height:100px;
+}
+
+.box1{
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0; */
+    background-color: lightblue;
+}
+
+.box2{
+    background-color: yellow;
+}
+
+.box3{
+    background-color: orange;
+}
+
+.fixed{
+    position: fixed;
+    top: 25px;
+    color: black;
+    font-size: 50px;
+} */
