@@ -18,6 +18,7 @@ text-align: center;
 #ejercicioDos {
     display: none; /*te oculta todo el bloqueo y no ocupa espacio*/
     /* visibility: hidden; Oculta el contenido pero aun esta el espacio del bloqueo */
+
 }
 
 
